@@ -1,0 +1,55 @@
+<div>
+  <a href="tel:9876543210"
+    ><img src="assets/icons/phone-call.png" style="height: 20px; width: 20px"
+  /></a>
+
+  <a (click)="sendMessage()" [href]="link"
+    >Send Message to any whatsapp number</a
+  >
+
+  <!-- <a href="whatsapp://tel:9513219616">call 1</a>
+
+  <a href="whatsapp://9513219616"> Call 2</a> -->
+
+  <a (click)="makeCall()" [href]="link">Call using whatsapp </a>
+
+  <a
+    href="whatsapp://send?text=The text to share!"
+    data-action="share/whatsapp/share"
+    >Share via Whatsapp</a
+  >
+</div>
+<!-- 
+<div _ngcontent-jll-c17="">
+  <a _ngcontent-jll-c17="" href="tel:9513219616"
+    ><img
+      _ngcontent-jll-c17=""
+      src="assets/icons/phone-call.png"
+      style="height: 20px; width: 20px" /></a
+  ><br _ngcontent-jll-c17="" /><a
+    _ngcontent-jll-c17=""
+    href="https://api.whatsapp.com/send?phone=919513219616"
+    target="_blank"
+    >Send Message 1</a
+  ><a
+    _ngcontent-jll-c17=""
+    href="https://api.whatsapp.com/send?phone=919513219616&amp;text=Send20%a20%quote"
+    target="_blank"
+    >Send Message 2</a
+  ><a _ngcontent-jll-c17="" href="whatsapp://call?number=919513219616"
+    >Send Message 3 </a
+  ><a
+    _ngcontent-jll-c17=""
+    href="https://wa.me/+919876789098?text=Send20%a20%quote"
+    >Send Message 4</a
+  ><a
+    _ngcontent-jll-c17=""
+    href="https://wa.me/whatsappphonenumber/?text=urlencodedtext"
+    >Send Message 5</a
+  ><a
+    _ngcontent-jll-c17=""
+    href="whatsapp://send?text=The text to share!"
+    data-action="share/whatsapp/share"
+    >Share via Whatsapp</a
+  >
+</div> -->

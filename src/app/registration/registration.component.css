@@ -1,0 +1,12 @@
+.registration {
+  text-align: center;
+  margin: 8px;
+}
+.registration-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form form .field {
+  margin: 8px;
+}
